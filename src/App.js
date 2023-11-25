@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import './Project.css'
+import Persona from "./Persona";
 
 function App() {
   return (
-    <div>Hallo Welt 2 </div>
+    <div>
+      <Persona/>
+    </div>
   );
 }
 
