@@ -1,12 +1,13 @@
-import './Project.css'
-import Persona from "./Persona";
+import React, { useState, useEffect } from 'react';
+import './Project.css';
 
-function App() {
-  return (
-    <div>
-      <Persona/>
-    </div>
-  );
-}
+const App = () => {
+
+    return (
+        <div className="App">
+            <h1>Hello, Cursor Glow!</h1>
+        </div>
+    );
+};
 
 export default App;
