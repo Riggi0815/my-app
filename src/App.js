@@ -10,11 +10,8 @@ function App() {
    })
 
     return (
-        <div>
-            <section>
-                <h2>Light</h2>
-            </section>
-            <div class="light"></div>
+        <div class="app">
+            <div class="effect"></div>
         </div>
     );
 };
