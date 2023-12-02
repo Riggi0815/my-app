@@ -1,7 +1,7 @@
 :root {
   font-family: Inter;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
-  color: black;
+  color: white;
 }
 @supports (font-variation-settings: normal) {
   :root { font-family: InterVariable; }

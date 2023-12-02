@@ -1,3 +1,8 @@
+:root{
+    outline: dotted red;
+    background: #040427;
+}
+
 .effect{
     position: fixed;
     top: 0;
@@ -6,4 +11,5 @@
     height: 100%;
     pointer-events: none;
     background: radial-gradient(circle at var(--x) var(--y), transparent -100%, rgba(4.31,4.31,39,1) 20%);
+    z-index: 1;
 }

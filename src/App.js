@@ -11,8 +11,14 @@ function App() {
 
     return (
         <div class="app">
+            {/*}
             <div class="effect"></div>
+            */}
+            <div class="Persona">
+                <h2>Über mich!</h2>
+            </div>
         </div>
+
     );
 };
 
