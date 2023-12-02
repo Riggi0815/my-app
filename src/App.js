@@ -14,8 +14,11 @@ function App() {
             {/*}
             <div class="effect"></div>
             */}
-            <div class="Persona">
+            <div class="persona">
                 <h2>Über mich!</h2>
+            </div>
+            <div class="projects">
+                <h2>Meine Projekte</h2>
             </div>
         </div>
 

@@ -1,6 +1,21 @@
 :root{
-    outline: dotted red;
     background: #040427;
+}
+.app{
+    psoition:fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.persona{
+    width: 50%;
+    height: 100vh;
+    background: blue;
+}
+
+.projects{
+    top: 0;
+    left:50%
 }
 
 .effect{
