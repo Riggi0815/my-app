@@ -20,5 +20,5 @@
     width: 100vw;
     height: 100vh;
     pointer-events: none;
-    background: radial-gradient(circle at var(--x) var(--y), transparent 1px, rgba(4.31,4.31,39,1) 20%);
+    background: radial-gradient(circle at var(--x) var(--y), transparent -100%, rgba(4.31,4.31,39,1) 20%);
 }
