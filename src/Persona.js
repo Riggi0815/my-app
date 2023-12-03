@@ -1,9 +1,9 @@
-import './Project.css'
+import './allCSS.css'
 
 function Persona() {
     return(
-        <div className="container-col-50">
-            Informations about myself! And More
+        <div>
+            Informations about myself!
         </div>
     );
 }

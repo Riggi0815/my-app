@@ -1,5 +1,7 @@
 import React, {} from 'react';
-import './Project.css';
+import './allCSS.css';
+import Persona from "./Persona";
+import Project from "./Project";
 
 function App() {
 
@@ -10,15 +12,15 @@ function App() {
    })
 
     return (
-        <div class="app">
+        <div class="max-height">
             {/*}
             <div class="effect"></div>
             */}
-            <div class="persona">
-                <h2>Über mich!</h2>
+            <div class="left width-50 marker ">
+                <Persona/>
             </div>
-            <div class="projects">
-                <h2>Meine Projekte</h2>
+            <div class="right width-50 marker ">
+                <Project/>
             </div>
         </div>
 
