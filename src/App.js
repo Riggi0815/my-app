@@ -1,30 +1,26 @@
-import React, {} from 'react';
-import './allCSS.css';
-import Persona from "./Persona";
-import Project from "./Project";
+import React from 'react';
+// components
+import Banner from './components/Banner';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import About from './components/About';
+import Services from './components/Services';
+import Work from './components/Work';
+import Contact from './components/Contact';
 
-function App() {
-
-   var pos = document.documentElement;
-   pos.addEventListener('mousemove', e =>{
-       pos.style.setProperty('x', e.clientX + 'px')
-       pos.style.setProperty('y', e.clientY + 'px')
-   })
-
-    return (
-        <div class="max-height">
-            {/*}
-            <div class="effect"></div>
-            */}
-            <div class="left width-50 marker ">
-                <Persona/>
-            </div>
-            <div class="right width-50 marker ">
-                <Project/>
-            </div>
-        </div>
-
-    );
+const App = () => {
+  return (
+    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+      <Header />
+      <Banner />
+      <Nav />
+      <About />
+      <Services />
+      <Work />
+      <Contact />
+      <div className='h-[4000px]'></div>
+    </div>
+  );
 };
 
 export default App;
