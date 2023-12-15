@@ -1,2 +1,0 @@
-:root{font-feature-settings:"liga" 1,"calt" 1;color:#fff;font-family:Inter}@supports (font-variation-settings:normal){:root{font-family:InterVariable}}:root{background:#040427}.effect{background:radial-gradient(circle at var(--x) var(--y),#0000 -100%,#040427 20%);height:100%;left:0;pointer-events:none;position:fixed;top:0;width:100%;z-index:1}.marker{border:dotted red}.max-height{display:flex;height:100%}.max-width{display:flex;width:100%}.width-50{width:50%}
-/*# sourceMappingURL=main.bc6e150a.css.map*/
